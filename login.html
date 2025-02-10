@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/custom.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/variables.css">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,800;1,800&family=Poppins:wght@400;500;600;700;900&family=Roboto:wght@300;400;500&family=Rubik:wght@300;400;500&display=swap" rel="stylesheet"> -->
+</head>
+<body>
+    <div class="login-header row m-0">
+        <div class="col-lg-6 col-md-12 banner-section-login">
+            <div class="login-left">
+                <h6 class="font-24">Hello, Welcome back to the </h6>
+            <h1 class="font-30">Blue commerce</h1>
+            <div class="login-banner-img">
+                <img src="./assets/images/login-page.png" alt="Banner">
+            </div>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-12 login-right-top">
+            <div class="login-right">
+                <div class="logo-login">
+                    <img src="./assets/images/Logo-login.png" alt="logo">
+                </div>
+                <h1 class="loginregistration font-30">Merchant LOGIN</h1>
+                <h6 class="login-create-new font-15">Login to continue the application</h6>
+
+                <div class="input-part">
+                    <label class="font-14" for="#email">Email ID</label>
+                    <input class="font-15" type="text" name="email" id="name" value="mitchelljohnson123@gmail.com">
+                </div>
+
+                <div class="input-part">
+                    <label class="font-14" for="#cpassword">Password</label>
+                    <input class="font-15" type="password" name="name" id="cpassword" placeholder="Enter Password">
+                    <span class="i-icon"></span>
+                </div>
+                <div class="remember">
+                  <div class="remember-me">
+                    <label class="container font-15">Remember me
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                      </label>
+                  </div >
+                    <a href="#"><p class="font-15">Forgot Password?</p></a>
+                </div>
+                <div class="robot-section">
+                    <div class="robot-checkox">
+                        
+                         <label class="container font-20">I’m not a robot
+                            <input type="checkbox" >
+                            <span class="checkmark"></span>
+                          </label>
+                    </div>
+                    <div class="robot-icon">
+                        <img src="./assets/images/not-robot.png" alt="im not a robot">
+                    </div>
+                </div>
+                <div class="botton-section">
+                  <!-- <a href="dashboard.html" data-bs-toggle="modal" data-bs-target="#exampleModal1">  <button class="font-18">LOGIN</button></a> -->
+                  <a href="dashboard.html">  <button class="font-18">LOGIN</button></a>
+
+                  <!-- alert popup -->
+                  <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-header">
+                          <h5 class="modal-title font-22" id="exampleModalLabel1">Waiting for ADMIN APPROVAL</h5>
+                        </div>
+                        <div class="modal-body">
+                          <p class="font-15">Your application has been sent! Please wait 1-2 business days for your application to be reviewed and processed by our experts!</p>
+                        </div>
+                        <div class="modal-footer">
+                            <div>
+                          <img src="assets/images/admin-approval-popup-img.png" alt="processing">
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                  <p class="have-account font-16">Do you have an account? <a href="Register.html">Register here</a></p>
+                </div>
+            </div>
+        </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/custom.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

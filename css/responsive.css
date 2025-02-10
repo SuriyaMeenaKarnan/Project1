@@ -1,0 +1,672 @@
+@media screen and (max-width: 767px) {
+    .page-name h3 {
+        margin-left: 15px !important;
+    }
+
+    .mob-logo {
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .left-part {
+        width: 0;
+        left: -300px;
+        box-shadow: 20px 4px 20px rgba(0, 0, 0, 0.05);
+    }
+
+    .right-part {
+        width: 100%;
+        left: 0%;
+        margin-left: 0;
+        min-height: 100vh;
+        height: unset;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+
+    .left-part.open {
+        width: 280px;
+        left: 0;
+        z-index: 1111;
+        transition: all 0.2s;
+        box-shadow: 20px 4px 20px rgba(0, 0, 0, 0.05);
+        border-radius: 0 5px 0 0;
+    }
+
+    .left-part .menu-items .menu-item a {
+        padding: 10px 5px;
+    }
+
+    .menu-item {
+        margin: 10px 10px 0 10px;
+    }
+
+    .close1 {
+        background: #4371c3;
+        width: 25px;
+        height: 25px;
+        display: flex !important;
+        align-items: center;
+        border-radius: 50%;
+        justify-content: center;
+    }
+
+    .close1 {
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        transition: all 0.2s;
+    }
+
+    .overflow {
+        overflow: hidden;
+        height: 100vh;
+    }
+
+    .left-part .menu-items {
+        height: calc(100vh - 54px);
+        overflow-y: auto;
+        margin-top: 30px;
+    }
+
+    .left-part.open {
+        height: calc(100vh);
+    }
+
+    .main-page {
+        height: calc(100vh - 110px);
+    }
+
+    .side-logo {
+        display: none;
+    }
+
+    .breadcrumb-nav,
+    .profile {
+        margin: 10px;
+    }
+
+    .profile {
+        margin: 0;
+    }
+
+    .breadcrumb-nav {
+        margin: 10px;
+    }
+
+    .right-part {
+        padding-top: 0;
+    }
+
+    /* new  */
+    .sub_merchants,
+    .manage_customers,
+    .reports,
+    .common_Manage_subMerchant {
+        margin: 10px;
+    }
+
+    .invoice-templates-section {
+        margin: auto;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width:1440px) {
+    .card-section {
+        min-width: 245px;
+        max-width: 50%;
+    }
+
+}
+
+@media only screen and (max-width:992px) {
+    .banner-section-login {
+        display: none;
+    }
+
+    .login-right {
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .card-section {
+        margin: 10px auto !important;
+        width: 43vw;
+    }
+
+    .customers-details-inner p:first-child {
+        width: 130px;
+    }
+
+    .plan-card-header {
+        padding: 30px 14px 40px;
+    }
+}
+
+@media only screen and (max-width:426px) {
+    .login-right {
+        padding: 15px;
+    }
+
+    .robot-checkox p {
+        margin-right: 20px;
+    }
+
+    .profile-section {
+        padding: 15px 15px 120px;
+    }
+
+    .section.form-section-profile {
+        padding: 15px;
+    }
+
+    section.form-section-profile {
+        padding: 0;
+    }
+
+    .billing-details {
+        width: 50%;
+    }
+
+    /* .customers-details-inner p:last-child{
+        width: 100%;
+
+    } */
+    .edit-section {
+        padding: 8px;
+    }
+
+    section.inner-section {
+        padding: 15px;
+    }
+
+    .input-part label {
+        padding: 10px 0 5px 0;
+    }
+
+}
+
+
+/*Suriya Meena Start */
+@media screen and (max-width: 1200px) {
+    .manage_customer_show_I {
+        margin-left: 11px;
+    }
+
+    .d-flex.report_input_group {
+        flex-wrap: wrap;
+    }
+
+    #reports_search1_container,
+    #reports_search2_container,
+    #reports_search3_container,
+    #reports_search4_container,
+    #transaction_report .reports_search_container,
+    #transaction_report .reports_search_container_btn {
+        width: 45%;
+        margin-left: unset;
+    }
+
+    #reports_search1_container,
+    #reports_search2_container,
+    .reports_search_container:first-child,
+    .reports_search_container:nth-child(2) {
+        margin-bottom: 10px;
+    }
+
+    .reports_search_container:first-child,
+    .reports_search_container:nth-child(3) {
+        margin-right: 20px;
+    }
+
+    #reports_search4_container button,
+    #transaction_reports_search4_container button {
+        padding: 11.5px 15px;
+        width: 100%;
+    }
+
+    #reports_search3 {
+        padding: 20px;
+    }
+
+    /* Statical Report Start */
+
+
+    #static_report .reports_search_container,
+    #static_report .reports_search_container,
+    #static_report_search4_container {
+        width: 75%;
+        margin-left: unset;
+    }
+
+    #static_report_search4_container button {
+        width: 100%;
+        height: 47px;
+    }
+
+    /* Statical Report End */
+}
+
+@media screen and (max-width: 992px) {
+    .manage_customers_head {
+        flex-wrap: wrap;
+    }
+
+    .manage_customers_main_head {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .manage_customer_show_II nav {
+        margin-top: 10px;
+    }
+
+    .manage_customers .pagination .page-link,
+    .reports .pagination .page-link,
+    .common_Manage_subMerchant .pagination .page-link {
+        padding: 5px;
+        text-align: center;
+    }
+
+    #reports_search1_container,
+    #reports_search2_container,
+    #reports_search3_container,
+    #reports_search4_container,
+    #transaction_report .reports_search_container,
+    #transaction_report .reports_search_container_btn {
+        width: 100%;
+        margin-left: unset;
+        margin-right: unset;
+    }
+
+    #reports_search3_container,
+    .reports_search_container:nth-child(3) {
+        margin-bottom: 10px;
+    }
+
+    #transaction_report .reports_search_container::after,
+    #static_report .reports_search_container::after {
+        right: 8px;
+    }
+
+    #static_report .reports_table_responsive_II {
+        padding-left: 20px;
+    }
+
+    #add_edit_roles .common_Manage_subMerchant .table tr td {
+        padding: 10px;
+    }
+
+}
+
+@media screen and (max-width: 768px) and (min-width: 576px) {
+    .sub_merchant_head {
+        flex-wrap: wrap;
+    }
+
+    .sub_merchant_head div {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .sub_merchants,
+    .manage_customers,
+    .reports,
+    .common_Manage_subMerchant {
+        margin: 10px;
+    }
+
+    #add_edit_roles.common_Manage_subMerchant {
+        margin: unset;
+    }
+
+    .sub_merchants .table tr th,
+    .sub_merchants .table tr td,
+    .manage_customers .table tr th,
+    .manage_customers .table tr td,
+    .common_Manage_subMerchant .table tr th,
+    .common_Manage_subMerchant .table tr td {
+        padding: 10px;
+    }
+
+    .manage_customers_main_head {
+        width: unset;
+        margin-bottom: unset;
+    }
+
+    #customer_manage_search {
+        width: 200px;
+        padding: 12px 30px 12px 5px;
+    }
+
+    #reports_search1,
+    #reports_search2,
+    #reports_search3,
+    #transaction_reports_search1,
+    #transaction_reports_search3,
+    #transaction_report #transaction_reports_search2_container .form-select,
+    #static_report_search1,
+    #static_report_search3,
+    #static_report_II_search3{
+        padding: 12px 30px 12px 5px;
+    }
+
+    #transaction_reports_search3_container::before,
+    #reports_search3_container::before{
+        left: 5px;
+    }
+
+    .customer_manage_search_container {
+        width: 200px;
+    }
+
+    #customer_manage_search::placeholder,
+    #static_report_search1::placeholder,
+    #static_report_search3::placeholder,
+    #static_report_II_search3::placeholder,
+    #transaction_reports_search3_container::before,
+    #reports_search3_container{
+        font-size: 12px;
+    }
+
+    .customer_manage_search_container::after,
+    .common_Manage_subMerchant .reports_search_container::after {
+        right: 5px;
+    }
+
+    #manage_customer_show_no,
+    #list_report_show_no,
+    #static_report_show_no {
+        padding: 3px 3px 3px 4px;
+        width: 50px;
+    }
+
+    #reports_search1_container,
+    #reports_search2_container,
+    #reports_search3_container,
+    #reports_search4_container,
+    #transaction_report .reports_search_container,
+    #transaction_report .reports_search_container_btn {
+        width: 45%;
+        margin-left: unset;
+    }
+
+    #reports_search1_container,
+    #reports_search2_container,
+    .reports_search_container:first-child,
+    .reports_search_container:nth-child(2) {
+        margin-bottom: 10px;
+    }
+
+    #reports_search1_container,
+    #reports_search3_container,
+    #transaction_report .reports_search_container:first-child,
+    #transaction_report .reports_search_container:nth-child(3) {
+        margin-right: 20px;
+    }
+
+    #reports_search4_container button,
+    #transaction_reports_search4_container button {
+        padding: 13px 15px;
+        width: 100%;
+    }
+
+    #reports_search1::placeholder,
+    #reports_search2::placeholder,
+    #reports_search3::placeholder,
+    #transaction_reports_search1::placeholder,
+    #transaction_reports_search3::placeholder,
+    #transaction_reports_search3_container::before
+    #reports_search3_container::before{
+        font-size: 12px;
+    }
+
+    /* Statical Report Start */
+
+    #static_report .reports_search_container,
+    #static_report .reports_search_container,
+    #static_report_search4_container {
+        width: 35%;
+    }
+
+    #static_report_search4_container {
+        width: 90px;
+        height: 47px;
+    }
+
+    /* Statical Report End */
+
+    /* admin Popup start */
+
+    .modal-body p {
+        padding: 20px;
+    }
+
+    /* admin Popup end */
+
+}
+
+@media screen and (max-width: 767px) {
+    .page-name h3 {
+        margin-left: 15px !important;
+    }
+
+    .mob-logo {
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .left-part {
+        width: 0;
+        left: -300px;
+        box-shadow: 20px 4px 20px rgba(0, 0, 0, 0.05);
+    }
+
+    .right-part {
+        width: 100%;
+        left: 0%;
+        margin-left: 0;
+        min-height: 100vh;
+        height: unset;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+
+    .left-part.open {
+        width: 250px;
+        left: 0;
+        z-index: 1111;
+        transition: all 0.2s;
+        box-shadow: 20px 4px 20px rgba(0, 0, 0, 0.05);
+        border-radius: 0 5px 0 0;
+    }
+
+    .close1 {
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        transition: all 0.2s;
+    }
+
+    .overflow {
+        overflow: hidden;
+        height: 100vh;
+    }
+
+    .left-part .menu-items {
+        height: calc(100vh - 100px);
+        overflow-y: auto;
+        margin-top: 30px;
+    }
+
+    .side-logo {
+        display: none;
+    }
+
+    .breadcrumb-nav,
+    .profile {
+        margin: 10px;
+    }
+
+    .profile {
+        margin: 10px;
+    }
+
+    .breadcrumb-nav {
+        margin: 10px;
+    }
+
+    .right-part {
+        padding-top: 0;
+    }
+
+    #add_edit_roles.inner-section {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .btn-close {
+        margin-top: 15px;
+        margin-left: 10px;
+        padding: 16px;
+    }
+}
+
+@media only screen and (max-width:576px) {
+
+    .sub_merchants,
+    .manage_customers,
+    .common_Manage_subMerchant {
+        margin: 10px;
+    }
+
+    #add_edit_roles.common_Manage_subMerchant {
+        margin: unset;
+    }
+
+    .sub_merchants .table tr th,
+    .sub_merchants .table tr td,
+    .manage_customers .table tr th,
+    .manage_customers .table tr td,
+    .common_Manage_subMerchant .table tr th,
+    .common_Manage_subMerchant .table tr td {
+        padding: 10px;
+    }
+
+    #reports_search1::placeholder,
+    #reports_search2::placeholder,
+    #reports_search3::placeholder,
+    #transaction_reports_search1::placeholder,
+    #transaction_reports_search3::placeholder,
+    #static_report_search1::placeholder,
+    #static_report_search3::placeholder,
+    #static_report_II_search3::placeholder,
+    #transaction_reports_search3_container::before,
+    #reports_search3_container::before{
+        font-size: 12px;
+    }
+
+    .modal-body p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #add_edit_roles .modal-content,
+    #roles .modal-content{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .sub_merchant_head,
+    .manage_customers_head {
+        flex-wrap: wrap;
+    }
+
+    .sub_merchant_head div,
+    .manage_customers_main_head {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #customer_manage_search {
+        width: 200px;
+        padding: 12px 30px 12px 5px;
+    }
+
+    #reports_search1,
+    #reports_search2,
+    #reports_search3,
+    #transaction_report #transaction_reports_search2_container .form-select,
+    #transaction_reports_search1,
+    #transaction_reports_search3,
+    #static_report_search1,
+    #static_report_search3,
+    #static_report_II_search3 {
+        padding: 12px 30px 12px 5px;
+    }
+
+    #transaction_reports_search3_container::before,
+    #reports_search3_container::before{
+        left: 5px;
+        font-size: 12px;
+    }
+
+
+    .customer_manage_search_container {
+        width: 200px;
+    }
+
+    #customer_manage_search::placeholder,
+    #transaction_reports_search3_container::before,
+    #reports_search3_container::before{
+        font-size: 12px;
+    }
+
+    .customer_manage_search_container::after,
+    .common_Manage_subMerchant .reports_search_container::after {
+        right: 5px;
+    }
+
+    .manage_customers .pagination .page-link {
+        width: unset;
+        padding: 5px;
+        text-align: center;
+    }
+
+    /* Statical Report Statrt */
+
+    #static_report .reports_search_container,
+    #static_report .reports_search_container,
+    #static_report_search4_container {
+        width: 100%;
+        margin-left: unset;
+    }
+
+    /* Statical Report End */
+
+    /*admin popup start */
+
+    .modal-footer div {
+        height: 235px;
+        width: 275px;
+    }
+
+    /*admin popup End */
+
+
+    
+}
+
+/*Suriya Meena end */
